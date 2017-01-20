@@ -1,0 +1,35 @@
+{
+  "name": "java",
+  "tag": "jdk7",
+  "version": "7u80-b15",
+  "version_parsed": {
+    "major": "7",
+    "minor": "80",
+    "build": "15"
+  },
+  "version_segments": [
+    "7",
+    "80",
+    "15"
+  ],
+  "version_updated": "2017-01-20",
+  "version_checked": "2017-01-20",
+  "download_links": {
+    "rpm": "http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.rpm",
+    "tgz": "http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz",
+    "dmg": "http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-macosx-x64.dmg",
+    "exe": "http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-windows-x64.exe"
+  },
+  "external_links": [
+    {
+      "name": "Releases",
+      "href": "http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html"
+    }
+  ],
+  "command_samples": {
+    "curl_download": "curl -LOH 'Cookie: oraclelicense=accept-securebackup-cookie' 'http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.rpm'",
+    "wget_download": "wget --no-check-certificate --no-cookies --header 'Cookie: oraclelicense=accept-securebackup-cookie' 'http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.rpm'"
+  },
+  "catalog_type": "Catalog::OracleJava",
+  "api_revision": 1
+}
