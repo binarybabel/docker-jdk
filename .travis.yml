@@ -17,7 +17,7 @@ after_success:
   # PIN BUILDS TO LATEST JAVA VERSION
   - cp -v src/*.sh dist/
   - java_version () { ruby -e "require 'json'; puts JSON.parse(File.read('dist/JDK$1.json'))['version']"; }
-  - java_download () { ruby -e "require 'json'; puts JSON.parse(File.read('dist/JDK$1.json'))['download_links']['$2']"; }
+  - java_download () { ruby -e "require 'json'; puts JSON.parse(File.read('dist/JDK$1.json'))['downloads']['$2']"; }
   - |
     for V in "8" "7" ; do
       sed -i'' "s/jdk${V}\.svg/jdk${V}.svg?v=$(java_version ${V})/" README.md

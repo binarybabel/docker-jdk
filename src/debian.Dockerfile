@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y curl && apt-get clean
 
 ENV JAVA_DOWNLOAD=
 RUN mkdir -p /opt && curl -jfksSLH "Cookie: oraclelicense=accept-securebackup-cookie" \
-      "${JAVA_DOWNLOAD:-$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=download_links.tgz)}" \
+      "${JAVA_DOWNLOAD:-$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=downloads.tgz)}" \
       | tar -xzf - -C /opt \
     && ln -s /opt/jdk1.*.0_* /opt/jdk \
     && rm -rf /opt/jdk/*src.zip \

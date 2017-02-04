@@ -15,7 +15,7 @@ RUN apk --update add curl ca-certificates tar \
 
 ENV JAVA_DOWNLOAD=
 RUN mkdir -p /opt && curl -jfksSLH "Cookie: oraclelicense=accept-securebackup-cookie" \
-      "${JAVA_DOWNLOAD:-$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=download_links.tgz)}" \
+      "${JAVA_DOWNLOAD:-$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=downloads.tgz)}" \
       | tar -xzf - -C /opt \
     && ln -s /opt/jdk1.*.0_* /opt/jdk \
     && rm -rf /opt/jdk/*src.zip \

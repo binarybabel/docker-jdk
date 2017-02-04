@@ -12,7 +12,7 @@ MAINTAINER BinaryBabel OSS <oss@binarybabel.org>
 ENV JAVA_DOWNLOAD=
 RUN cd /tmp \
     && curl -o jdk.rpm -jfksSLH "Cookie: oraclelicense=accept-securebackup-cookie" \
-       "${JAVA_DOWNLOAD:-$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=download_links.rpm)}" \
+       "${JAVA_DOWNLOAD:-$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=downloads.rpm)}" \
     && rpm -Uvh jdk.rpm && rm jdk.rpm \
     && echo "export JAVA_HOME=/usr/java/default/" > /etc/profile.d/java_home.sh
 
