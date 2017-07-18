@@ -16,7 +16,7 @@ These images are rebuilt when new versions of Java are released, through the use
 
 |  JDK  | Current Version |  JDK  | Current Version |
 | :---: | :-------------: | :---: | :-------------: |
-| `8` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk8.svg)](https://lv.binarybabel.org/catalog/java/jdk8) | `7` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk7.svg)](https://lv.binarybabel.org/catalog/java/jdk7) |
+| `8` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk8.svg?v=8u141-b15)](https://lv.binarybabel.org/catalog/java/jdk8) | `7` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk7.svg?v=7u80-b15)](https://lv.binarybabel.org/catalog/java/jdk7) |
 
 **Usage of Oracle Java is subject to acceptance of Oracle's [Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html) (BCLA).**
 

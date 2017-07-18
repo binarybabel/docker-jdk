@@ -1,0 +1,35 @@
+{
+  "name": "java",
+  "tag": "jdk8",
+  "version": "8u141-b15",
+  "version_parsed": {
+    "major": "8",
+    "minor": "141",
+    "build": "15"
+  },
+  "version_segments": [
+    "8",
+    "141",
+    "15"
+  ],
+  "version_updated": "2017-07-18",
+  "version_checked": "2017-07-18",
+  "downloads": {
+    "rpm": "http://download.oracle.com/otn-pub/java/jdk/8u141-b15/336fa29ff2bb4ef291e347e091f7f4a7/jdk-8u141-linux-x64.rpm",
+    "tgz": "http://download.oracle.com/otn-pub/java/jdk/8u141-b15/336fa29ff2bb4ef291e347e091f7f4a7/jdk-8u141-linux-x64.tar.gz",
+    "dmg": "http://download.oracle.com/otn-pub/java/jdk/8u141-b15/336fa29ff2bb4ef291e347e091f7f4a7/jdk-8u141-macosx-x64.dmg",
+    "exe": "http://download.oracle.com/otn-pub/java/jdk/8u141-b15/336fa29ff2bb4ef291e347e091f7f4a7/jdk-8u141-windows-x64.exe"
+  },
+  "external_links": [
+    {
+      "name": "Releases",
+      "href": "http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
+    }
+  ],
+  "command_samples": {
+    "curl_download": "curl -LOH 'Cookie: oraclelicense=accept-securebackup-cookie' 'http://download.oracle.com/otn-pub/java/jdk/8u141-b15/336fa29ff2bb4ef291e347e091f7f4a7/jdk-8u141-linux-x64.rpm'",
+    "wget_download": "wget --no-check-certificate --no-cookies --header 'Cookie: oraclelicense=accept-securebackup-cookie' 'http://download.oracle.com/otn-pub/java/jdk/8u141-b15/336fa29ff2bb4ef291e347e091f7f4a7/jdk-8u141-linux-x64.rpm'"
+  },
+  "catalog_type": "Catalog::OracleJava",
+  "api_revision": 20170202
+}
