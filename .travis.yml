@@ -11,7 +11,6 @@ install: []
 script:
   - mkdir -p dist
   - curl -fso dist/JDK8.json https://lv.binarybabel.org/catalog-api/java/jdk8.json
-  - curl -fso dist/JDK7.json https://lv.binarybabel.org/catalog-api/java/jdk7.json
 
 after_success:
   # PIN BUILDS TO LATEST JAVA VERSION
@@ -19,7 +18,7 @@ after_success:
   - java_version () { ruby -e "require 'json'; puts JSON.parse(File.read('dist/JDK$1.json'))['version']"; }
   - java_download () { ruby -e "require 'json'; puts JSON.parse(File.read('dist/JDK$1.json'))['downloads']['$2']"; }
   - |
-    for V in "8" "7" ; do
+    for V in "8" ; do
       sed -i'' "s/jdk${V}\.svg/jdk${V}.svg?v=$(java_version ${V})/" README.md
       sed "s^JAVA_DOWNLOAD=^JAVA_DOWNLOAD=$(java_download ${V} tgz)^g" src/alpine.Dockerfile > dist/${V}-alpine.Dockerfile
       sed "s^JAVA_DOWNLOAD=^JAVA_DOWNLOAD=$(java_download ${V} rpm)^g" src/centos.Dockerfile > dist/${V}-centos.Dockerfile

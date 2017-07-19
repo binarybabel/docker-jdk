@@ -18,6 +18,8 @@ These images are rebuilt when new versions of Java are released, through the use
 | :---: | :-------------: | :---: | :-------------: |
 | `8` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk8.svg)](https://lv.binarybabel.org/catalog/java/jdk8) | `7` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk7.svg)](https://lv.binarybabel.org/catalog/java/jdk7) |
 
+_NOTE: JDK7 updates are no longer being provided publicly by Oracle._
+
 **Usage of Oracle Java is subject to acceptance of Oracle's [Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html) (BCLA).**
 
   + The environment variable `ACCEPT_ORACLE_BCLA` must be set. _Examples are given below._
