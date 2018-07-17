@@ -16,7 +16,7 @@ These images are rebuilt when new versions of Java are released, through the use
 
 |  JDK  | Current Version |  JDK  | Current Version |
 | :---: | :-------------: | :---: | :-------------: |
-| `8` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk8.svg)](https://lv.binarybabel.org/catalog/java/jdk8) | `7` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk7.svg)](https://lv.binarybabel.org/catalog/java/jdk7) |
+| `8` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk8.svg?v=8u181-b13)](https://lv.binarybabel.org/catalog/java/jdk8) | `7` | [![Latestver](https://lv.binarybabel.org/catalog-api/java/jdk7.svg)](https://lv.binarybabel.org/catalog/java/jdk7) |
 
 _NOTE: JDK7 updates are no longer being provided publicly by Oracle._
 
